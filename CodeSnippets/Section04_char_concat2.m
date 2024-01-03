@@ -1,4 +1,4 @@
-% Let's say we the ids is a three digit id and we want to print instead of 1 a 001, instead of 13 a 013 etc.
+% Lets say we want a three digit id, so instead of 1 a 001, instead of 13 a 013 etc.
 for ii = 1:numel(ids)
     for jj = 1:numel(arr)
         my_id = ids(ii);
