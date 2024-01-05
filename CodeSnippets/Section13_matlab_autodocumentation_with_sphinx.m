@@ -24,7 +24,7 @@ function result = processData(number, text, flag)
         text (1,:) char
         flag (1,1) logical
     end
-    result = strcat(num2str(number), text, num2str(flag)); %sprintf is also an option to handle this here ;) (see section 4)
+    result = strcat(num2str(number), text, num2str(flag)); % sprintf is also an option to handle this here ;) (see section 4)
 end
 
 % Comment your MATLAB code like shown above

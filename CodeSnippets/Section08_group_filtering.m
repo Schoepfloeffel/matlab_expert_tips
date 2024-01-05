@@ -1,4 +1,4 @@
-T = readtable('airlinesmall.csv', 'TreatAsMissing', 'NA'); %reading the airlinesmall csv dataset and treat 'NA' as missing (in demos folder of your matlab installation)
+T = readtable('airlinesmall.csv', 'TreatAsMissing', 'NA'); % reading the airlinesmall csv dataset and treat 'NA' as missing (in demos folder of your matlab installation)
 groupvars = ["Year", "Month"]; % aggregates values based on "Year" and "Month" column
 methods = @(x) x == max(x); % apply max on filter as function handle to datavars
 datavars = "ArrDelay"; % apply max function on this column

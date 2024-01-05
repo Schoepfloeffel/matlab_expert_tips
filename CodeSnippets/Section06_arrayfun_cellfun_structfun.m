@@ -5,10 +5,10 @@ squaredNumbers = arrayfun(@(x) x^2, numbers) % Applying a function to each eleme
 % >>> squaredNumbers =
 %
 %      1     4     9    16    25
-%
+
 %% cellfun
 cells = {1, 2, 3; 4, 5, 6}
-squaredCells = cellfun(@(x) x^2, cells, 'UniformOutput', false) %set 'UniformOutput' to true to return a double array
+squaredCells = cellfun(@(x) x^2, cells, 'UniformOutput', false) % set 'UniformOutput' to true to return a double array
 
 % >>> squaredCells =
 %
@@ -21,7 +21,7 @@ squaredCells = cellfun(@(x) x^2, cells, 'UniformOutput', false) %set 'UniformOut
 myStruct.a = 1;
 myStruct.b = 2;
 myStruct.c = 3;
-squaredValues = structfun(@(x) x^2, myStruct, 'UniformOutput', false) %set 'UniformOutput' to true to return a double array
+squaredValues = structfun(@(x) x^2, myStruct, 'UniformOutput', false) % set 'UniformOutput' to true to return a double array
 
 % >>> squaredValues =
 %

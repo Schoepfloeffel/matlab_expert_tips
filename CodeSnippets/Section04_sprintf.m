@@ -1,4 +1,4 @@
-%sprintf consists two parts:
+% sprintf consists two parts:
 % 1. your complete string with formaters (written with %, e.g. %d for digit, %s for string
 % 2. your varibale inputs
 for ii = 1:numel(ids)

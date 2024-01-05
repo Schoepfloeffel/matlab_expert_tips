@@ -1,8 +1,8 @@
-T = readtable('airlinesmall.csv', 'TreatAsMissing', 'NA'); %reading the airlinesmall csv dataset and treat 'NA' as missing (in demos folder of your matlab installation)
+T = readtable('airlinesmall.csv', 'TreatAsMissing', 'NA'); % reading the airlinesmall csv dataset and treat 'NA' as missing (in demos folder of your matlab installation)
 groupvars = ["Year", "Month"]; % aggregates values based on "Year" and "Month" column
 methods = ["mean", "std"]; % apply mean and std function on datavars
 datavars = ["ArrDelay"; "DepDelay"]; % apply methods on "ArrDelay" and "DepDelay" columns
-T_agg = groupsummary(T, groupvars, methods, datavars) %getting mean and std from ArrDelay and DepDelay for each month with the groupcount
+T_agg = groupsummary(T, groupvars, methods, datavars) % getting mean and std from ArrDelay and DepDelay for each month with the groupcount
 
 % T_agg =
 %

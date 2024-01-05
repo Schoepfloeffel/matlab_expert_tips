@@ -1,4 +1,4 @@
-T = readtable('airlinesmall.csv', 'TreatAsMissing', 'NA'); %reading the airlinesmall csv dataset and treat 'NA' as missing (in demos folder of your matlab installation)
+T = readtable('airlinesmall.csv', 'TreatAsMissing', 'NA'); % reading the airlinesmall csv dataset and treat 'NA' as missing (in demos folder of your matlab installation)
 
 %% rule 1: numeric arrays missing -> NaN, hence double
 class(T.AirTime)
