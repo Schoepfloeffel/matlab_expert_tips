@@ -32,7 +32,7 @@ Primary audience consists of engineers without a deep software background that a
 | [10](Section10) | Missing | Use Missings over NaN |
 | [11](Section11) | Education | Stay Up To Date |
 | [12](Section12) | Debugging | Conditional Breakpoints |
-| [13](Section13) | Documentation | Produce A .html Documentation In Python |
+| [13](Section13) | Documentation | Produce A HMTL Documentation In Python |
 
 
 ## Bugs or feedback? :bug:
